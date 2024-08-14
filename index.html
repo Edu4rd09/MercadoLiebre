@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mercado Liebre</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" sizes="64*64" href="./img/favicon.ico"> 
+</head>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<body class="container-fluid">
+    <header class="row">
+        <div class="dheader">
+            <div class="dlogo">
+            <img class="logo" src="./img/mercado-liebre.png" alt="ICONO">
+            <div class="carrito">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASdJREFUSEvN1MExBUEUBdDzI0AGRIAIlAjIAFsWiIAMsGDLjwAZyAARkAEZUE/1VI2enpku31fecub1ve/e268n5lyTOeP7U4KPpOYdNzj+DXVtBQ1Bg7uJh1lJShYd4Qz32O4haIYZtbjUsIi3BLyC1wLJTASBFxns4AKhKK+ZCdbwiAh8KaHnGeWkRbuGPHzCKvaSohqCjvIhgl1cI4jWs3H7LArFC6k/zo0uWudAZld7wGagZ4TFXzV2zc5xiCkCoKmSgtiZjZalVQTLeEmoEXYoKlVv35iCALvDVno6QlGpTnFSUDpqUYDFNt/2AOefO89LjYIAaa7sEM+3cGtDrhy8v61WwSX2cYWDDG7oX1UGgdfe4nyooX/VBHNX8OMsajP4vwSfTQ87GZT0DnkAAAAASUVORK5CYII="/>
+                <a href="#" class="a1">Todas las opiniones en un mismo lugar.</a>
+                </div>
+            </div>
+            <div class="dheader2">
+            <div class="tp">
+            <a href="#" class="a1">Todos los productos</a>
+            </div>
+            <div class="links">
+            <div class="cards">
+            <a href="#" class="a1">Creá tu cuenta</a>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOdJREFUSEvdlf0RwVAQxH+pgA5QATpQChWgEyqgBCXQAR3QARUwZ97NXB6T95GEmeS/fLzdvb29S0HLV9EyPt0imAE7YFjTtiuwAI6CYy2SF4Oa4HpcsEY+wbMhcIV5i7cV/IVgDWyACXBItDBYwcUBa8lzF4KSBZ6t1oUgwRmYGoDGCQR7BWyBnAgHK1DxJzcbqRGuJHg49XtjkTRa7sfmmb9qonug6fFHow9Ib7SabIKqJSixXUYMZXQPIrC+fvJ7gjvQy5XrnbvpVrZeS9YlJalx9DUJuAzlx7puSHwZplu/zFYsegFKYykZG/0WkwAAAABJRU5ErkJggg=="/>   
+            </div>
+            <div class="login">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#ingresar" class="a1">Ingresá</a>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMdJREFUSEvdldENwjAMRF8nYARgE9gEJoNRGAE2gA1gAtCh+KOh0AtKpKr5zfnO9tlJR+PTNeZnMgIb4ACsjIqvwB44CetWoKClQR4Q4dclAs8U6STUwzoB4p6fwBHYffHkrxblXCI5A1vgnl1WExCvyCUisTijAgEomMr33KttHwMxNEXNBZzMI4kHoC0vapErcEnkVUzOF636mM5vk3/5NLoHQ8EycuG4nzC3+Dvc11SjKGOdP0HkeqeKPpyC5PtQt4LpCrwAp0AyGfsjkzgAAAAASUVORK5CYII="/>  
+            </div>
+            </div>
+            </div>
+            </div>
+        </header>
+        <div class="modal fade" id="ingresar">
+          <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <form class="cuerpo_form">
+          <div class="logo_form">
+          <img width="350px" src="./img/mercado-liebre.png" alt="ICONO">
+          </div>
+          <b class="registro">Registro</b>
+          <div class="divdatos">
+          <div class="nombre_form">
+             <b><label for="nombre">Nombre: </label></b>
+             <div class="dname">
+             <input class="innombre" type="text" name="nombre" id="nombre">
+          </div>
+      </div>
+          <div class="gmail">
+              <div>
+             <b><label for="email">Email: </label></b>
+          </div>
+          <div class="demail">   
+          <input class="inmail" type="email" name="email" id="email">
+          </div>
+          </div>
+          <div class="contrasena">
+             <b><label for="password">Contraseña: </label></b>
+             <input type="password" name="password" id="password">
+          </div>
+          </div>
+             <b><button class="botonre" type="submit">REGISTRAR</button></b>
+          </div>
+        </form>
+      </div>
+      </div>
+  </div>
+  <section class="carrusel row">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+</div>
+    <nav></nav>
+    <main>
+      <div class="row">
+        <section class="ofertas">
+        <br>
+        <h2 class="dno">Disfruta nuestras ofertas</h2>
+        <br>
+        <div class="productos row">
+        <div class="producto1 col-xl-3 col-sm-6">
+        <img width="300px" src="./img/productos/img-cafetera-moulinex.jpg" alt="">
+        <div class="nombre1">
+        <b>Cafetera Moulinex</b>
+        <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+        </div>
+        <div class="producto2 col-xl-3 col-sm-6">
+        <img width="300px" height="300px" src="./img/productos/img-macbook-pro-2019.jpg" alt="">
+        <div class="nombre2">
+        <b>Macbook Pro 2019</b>
+        <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+        </div>
+        <div class="producto3 col-xl-3 col-sm-6">
+        <img width="300px" height="300px" src="./img/productos/img-tv-samsung-smart.jpg" alt="">
+        <div class="nombre3">
+        <b>TV LG 40 pulgadas</b>
+        <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+        </div>
+        <div class="producto4 col-xl-3 col-sm-6">
+        <img width="300px" height="300px" src="./img/productos/img-samsung-galaxy-s10.jpg" alt="">
+        <div class="nombre4">
+        <b>Samsung Galaxy</b>
+        <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+        </div>
+      </div>
+        </section>
+        <hr>
+        <div class="productosDestacados row">
+        <h2 class="titulo2">Productos destacados</h2>
+        
+        <div class="producto5 col-xl-7">
+            <img class="imagen5" width="500px" height="500px" src="./img/productos/img-samsung-galaxy-s10.jpg" alt="">
+            <div class="nombre5">
+            <b>Smarphone Samsung Galaxy</b>
+        </div>
+            </div>
+            <div class="producto6 col-xl-5">
+                <img class="imagen6" width="500px" src="./img/productos/img-tv-samsung-smart.jpg" alt="">
+                <div class="nombre6">
+                    <b>TV Smart 40" Samsung</b>
+                </div>
+                </div>
+            </div>
+          </div>
+    </main>
+    <hr>
+    <footer>
+      <div class="piedepagina row">
+        <div class="seguinos col">
+          <b>Seguinos</b><br>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAL1JREFUSEvtlIEJwjAQRV836AY6ghtUJ9EROoJOoCO4ghvoBDqCbuAGlQ8JHGo9UhJUaKBw0Ob/+4+7VhQ+VWF9fs5gCmyBGaBa5wTM+0ikJJDgGaifxLIZ7IHlm06zGRyBJhgcgBVw94YkBVFnxDbA2hPX+68bCMMkdGo7Fi49cYpi/RLKS2C59xH5iCuHwcKkSU6wC0uli3GCVN+Aa1BrgUuORfvPKbLJxwTu4o+IXESDPvB+FYNE7aXiBg+0MykZNmDKCAAAAABJRU5ErkJggg=="/>
+          Facebook <br>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAX1JREFUSEvNlU0yBEEQhb+5gZUtToATYGOLA4jgBm6AEwg7O5zAWFrhBDgB4QJ+LkB8olLUVJTumkXHyIiKmumuypf5MvP1iIFtNLB/ZgawCBwCK2l1JfoIuE7TPnG2lsEecJ5O3QPvtYvpvQHMAWvp/z5wkSOUAF54AHS8nZy3lMmMx8AysJoHVAKIrmMvGHmf7QLHwAewAzwDl4As/FgJ8AK41iueBTZCTc6vgU3gBngFFoC7tC/9BfCVinWQAcjxbaXYOjsDPoH5FLnPrMdv4GUGApjyUQZgtFJm2vKsmY10Wq+N7OzUADq6SvyG8/AX3Sb38W5qADNxHmrtLHVvRcb/D2BwiqIlbUE5tzU1f58AT0VLN1GkppRt6sWYgShybdp7AfoGTSmJrMqu8rkAtrSrOsn29hbgJLZIRT7wOu2VihA7I1EZzajFdO68eL9T7KKAIdcCdcl1aFbsvXId0RqJhfaiHdRlKqmBOJTKyoTN7JPZwnvTmcEz+AZJz2cZU1H38wAAAABJRU5ErkJggg=="/>
+          Instagram <br>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAP5JREFUSEvtlc8NAUEUh7+tgBJw4IgK0IESnCUOEgVQgEQkzkoQHdABNwcHOqAB5MnbZHYysXbGxmXnNPt23u97/2Y3IucV5ayPC1ADHsDlF3AbsARGKjwHJqEQE9AATpZgBbiGQNIA1dBS2SVaAUONeAGMQ6IXX1eT69rkc6i4C9AFnip8Bw66bwEly14GmoD4yLmjq5x2BrG4aO3VWfY7oKMAsU+BDSAQc4l9Zhp8AHI/RNgWj3V7GtD72QeQ1pot0I8P+QJMkQGwNqiSoYx3UAZtYwBE6GYMQaIyvhnYfuYQFABn74oSJT4Vrgv6dYnSbmnm93/56WeO8pPDC6yAShkkBxiqAAAAAElFTkSuQmCC"/>
+          Linkedin <br>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOhJREFUSEvtleERATEQhb+rgA7ogA5QAR3QAR1QAhWgAypAB3RwJVAB80hm4obbOO6HmctMfuXt+7KbTZJQ8khK9qcCmBXOlqgLjIG6m23T4SHYO10KLICjjwsBMt9FGlqynoeGgA3QtyIj17fAQNoQoDQ7kQaW7ACoIk+AqxGltFdAw3J36/fNhxlYAK+dAROgZoAKA+SrLpsDwxzI14Cpy+QdozBA5ZG5ssgbHwN0yEugGXHIF7+B8JB1+1oRwTGSl236y4u2BkbZNi39qRBQEJF9nWNv9gk4u6n29Y9f9eHYDfX/f/INbvUiGfj4dkgAAAAASUVORK5CYII="/>
+          Youtube 
+        </div>
+        <div class="servicios col">
+          <b>Otros servicios</b> <br>
+          MercadoLiebre pago <br>
+          MercadoLiebre Shops <br>
+          Liebre Envios
+        </div>
+        <div class="TCN col">
+          <b>Trabaja con nosotros</b>
+        <div>   
+        <input placeholder="Ingresa tu email" type="email" name="email" id="email">
+        <button class="btn btn-primary" type="submit">ENVIAR</button>
+        </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black !important;
+}
+a{
+    text-decoration: none !important;
+    font-size: 20px;
+}
+.a1:hover{
+    color: blue !important;
+}
+
+header{
+    z-index: 2;
+    background-color: #fbbc02;
+    position:sticky;
+    top: 0;
+    
+    padding: 10px;
+    height: 150px;   
+}
+
+.dheader{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 70px;
+}
+.dlogo{
+    display:flex ;
+    justify-content: space-between ;
+}
+.logo{
+    height: 50px ;
+}
+.carrito{
+    display: flex ;
+    align-items: center ;
+}
+.dheader2{
+    display: flex ;
+    justify-content: space-between ;
+    margin-top: 10px;
+}
+.tp{
+    display: flex ;
+}
+.links{
+    display: flex ;
+    justify-content: end ;
+    flex-direction: row ;
+}
+.cards{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px ;
+}
+.login{
+    display: flex ;
+    justify-content: end ;
+    align-items: center ;
+}
+
+.carrusel{
+    width: 100%;
+    z-index: 0;
+}
+.ofertas{
+    font-size: 20px;
+}
+.dno{
+    text-align: center;
+    font-size: 50px;
+}
+.productos{
+    display: flex;
+    justify-content: space-around;
+}
+.producto1{
+    border: 2px gray solid;
+    border-radius: 3%;
+    margin-bottom: 150px;
+}
+.producto2{
+    border: 2px gray solid;
+    border-radius: 3%;
+    margin-bottom: 150px;
+}
+.producto3{
+    border: 2px gray solid;
+    border-radius: 3%;
+    margin-bottom: 150px;
+}
+.producto4{
+    border: 2px gray solid;
+    border-radius: 3%;
+    margin-bottom: 150px;
+}
+.nombre1{
+    display: flex;
+    justify-content: space-around;
+}
+.nombre2{
+    display: flex;
+    justify-content: space-around;
+}
+.nombre3{
+    display: flex;
+    justify-content: space-around;
+}
+.nombre4{
+    display: flex;
+    justify-content: space-around;
+}
+.titulo2{
+    text-align: center;
+    font-size: 50px;
+}
+.productosDestacados{
+    display: flex;
+    justify-content: space-around;
+}
+.producto5{
+    border: 2px gray solid;
+    border-radius: 3%;
+}
+.producto5:hover img{
+opacity: 0.5;
+}
+.nombre5{
+text-align: center;
+position: relative;
+bottom: 50%;
+font-size: 40px;
+}
+.producto6{
+    border: 2px gray solid;
+    border-radius: 3%;
+}
+.producto6:hover img{
+    opacity: 0.5;
+    }
+.nombre6{
+    text-align: center;
+    position: relative;
+    bottom: 50%;
+    font-size: 40px;
+}
+.cuerpo_form{
+    height: 700px;
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.registro{
+    margin-top: 40px;
+    font-size: 60px;
+}
+.divdatos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 10%;
+}
+.nombre_form{
+    display: flex;
+}
+.innombre{
+    margin-left: 12.5%;
+}
+.gmail{
+    display: flex;
+    margin-top: 10px;
+}
+.inmail{
+    margin-left: 24%;
+}
+.contrasena{
+    display: flex;
+    margin-top: 10px;
+}
+.botonre{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10%;
+    padding: 5px;
+    display: flex;
+    margin: 10%;
+}
